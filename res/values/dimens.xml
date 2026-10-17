@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="content_padding">16dp</dimen>
+    <dimen name="row_gap">14dp</dimen>
+    <dimen name="field_width">120dp</dimen>
+</resources>

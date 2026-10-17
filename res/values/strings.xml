@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Adaptive Display</string>
+    <string name="tile_label">Adaptive Display</string>
+    <string name="tile_active">Adaptive</string>
+    <string name="mode_native">Panel Native</string>
+    <string name="mode_natural">Natural (sRGB)</string>
+    <string name="mode_vivid">Vivid (Display P3)</string>
+    <string name="mode_adaptive">Adaptive (ambient)</string>
+    <string name="adaptive_thresholds">Adaptive thresholds (lux)</string>
+    <string name="bright_on_hint">Go vivid at lux ≥</string>
+    <string name="bright_off_hint">Go natural at lux ≤</string>
+    <string name="current_lux_fmt">Ambient: %1$.0f lux</string>
+</resources>

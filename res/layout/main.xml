@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/content_padding">
+
+    <TextView
+        android:id="@+id/lux"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/row_gap" />
+
+    <RadioGroup
+        android:id="@+id/modes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/adaptive_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/row_gap">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/adaptive_thresholds"
+            android:paddingBottom="@dimen/row_gap" />
+
+        <EditText
+            android:id="@+id/bright_on"
+            android:layout_width="@dimen/field_width"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="@string/bright_on_hint" />
+
+        <EditText
+            android:id="@+id/bright_off"
+            android:layout_width="@dimen/field_width"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="@string/bright_off_hint" />
+    </LinearLayout>
+</LinearLayout>
